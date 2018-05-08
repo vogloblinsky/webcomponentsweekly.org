@@ -1,0 +1,12 @@
+language: node_js
+branches:
+  only:
+  - develop
+node_js:
+- '10'
+before_script:
+- chmod +x ./scripts/deploy.sh
+script: "./scripts/deploy.sh"
+env:
+  global:
+    secure: n8WYkuQZPEU3GWij9LhSZwE/LRzbacmkMtTSg8KeJRlyq7z+b7YD9TUywqGjJpvQy3j1Rq0OX2bKMxAsUUrUK3553Ngaz0adDawLoDZVNzi6/NetqeKvryER/3D0YQPU7bfZijQnV8PyIZsENzaNVjA9ZHH6fqxY5LwqAsjLR902IDkgnVT15qe2OUo5sL8FPF6zuKPAICrvmoixYTaknGUuzXmvoEC12K3nTE4p9p5d0VyWtuenhQFGbVQXcjEJokHABDr/hjlKBha52j4XNIDGuoEM0befXjGMGwrmxAhVntpivi270fK8/wQ3ztmLmEJ6APvxvEwNTdA/a+0RjL0+pqTbncYWdX8UxMHd8e/GzcsxLx5F60UJ9SPnHuZkoaCtbPeBuPXsSJlggKuFn8Y1eeTykJcX40huVZa/KYdghtF1w4lIjxgD/xar0J+yfO34cbpjsT68Wnod4unSWSpcKYJVQB+aHPRRRjzTH5Yd8oZQVd7sBvAX/ybj0vJnGJNnYvR1qRcXGo42ku+Hf4lGNs2r8lc2qhfyGFCEpBfzEQnutxl25Nni1c/AenN0lPyy3yBTCiDbGz4GbYtQXfnUHUs9AxMjDWmGDMOR8/0LzsPRP+1YNNggKBSEiEQICpJw2nXi2Cq/3llJEL7yT6ywKyv0IF+jc/1QdL5AkoY=
