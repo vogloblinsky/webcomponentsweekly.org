@@ -33,6 +33,10 @@ a,a:hover,a:focus {
     color: #2c66ae;
 }
 
+.small-text {
+    font-size: 14px;
+}
+
 .subscription-form {
     margin: auto;
     padding: 20px;
